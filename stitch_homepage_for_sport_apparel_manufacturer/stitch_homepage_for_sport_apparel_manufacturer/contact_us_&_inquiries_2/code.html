@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Shippsy - Contact Us</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1173d4",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: {
+                        "display": ["Inter"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+<style>
+        .form-input {
+            border: 1px solid #e5e7eb;}
+        .dark .form-input {
+            border: 1px solid #374151;}
+        .form-input:focus {
+            border-color: #1173d4;
+            box-shadow: 0 0 0 2px rgba(17, 115, 212, 0.2);
+            outline: 2px solid transparent;
+            outline-offset: 2px;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-[#101922] dark:text-background-light">
+<div class="flex flex-col min-h-screen">
+<header class="bg-background-light dark:bg-background-dark/80 backdrop-blur-sm sticky top-0 z-10 border-b border-[#e5e7eb] dark:border-background-dark">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16">
+<div class="flex items-center gap-4">
+<svg class="h-8 w-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 8v8m-4-4h8m6-4a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+<h1 class="text-xl font-bold">Shippsy</h1>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Products</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">About</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Sustainability</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">News</a>
+</nav>
+<div class="flex items-center gap-4">
+<a class="px-4 py-2 text-sm font-bold bg-primary text-white rounded-lg hover:bg-opacity-90 transition-colors" href="#">
+                            Contact Us
+                        </a>
+</div>
+</div>
+</div>
+</header>
+<main class="flex-grow">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
+<div class="grid lg:grid-cols-2 gap-16 lg:gap-24 items-start">
+<div class="space-y-8">
+<div class="space-y-4">
+<h2 class="text-3xl md:text-4xl font-bold tracking-tight">Get in Touch</h2>
+<p class="text-[#6b7280] dark:text-[#9ca3af]">We're here to help and answer any question you might have. We look forward to hearing from you.</p>
+</div>
+<form action="#" class="space-y-6" method="POST">
+<div>
+<label class="block text-sm font-medium" for="name">Name</label>
+<div class="mt-1">
+<input autocomplete="name" class="form-input block w-full bg-transparent rounded-lg text-sm placeholder:text-[#6b7280] dark:placeholder:text-[#9ca3af]" id="name" name="name" placeholder="Your Name" type="text"/>
+</div>
+</div>
+<div>
+<label class="block text-sm font-medium" for="email">Email</label>
+<div class="mt-1">
+<input autocomplete="email" class="form-input block w-full bg-transparent rounded-lg text-sm placeholder:text-[#6b7280] dark:placeholder:text-[#9ca3af]" id="email" name="email" placeholder="you@example.com" type="email"/>
+</div>
+</div>
+<div>
+<label class="block text-sm font-medium" for="subject">Subject</label>
+<div class="mt-1">
+<input class="form-input block w-full bg-transparent rounded-lg text-sm placeholder:text-[#6b7280] dark:placeholder:text-[#9ca3af]" id="subject" name="subject" placeholder="How can we help?" type="text"/>
+</div>
+</div>
+<div>
+<label class="block text-sm font-medium" for="message">Message</label>
+<div class="mt-1">
+<textarea class="form-input block w-full bg-transparent rounded-lg text-sm placeholder:text-[#6b7280] dark:placeholder:text-[#9ca3af]" id="message" name="message" placeholder="Your message..." rows="4"></textarea>
+</div>
+</div>
+<div>
+<button class="w-full flex justify-center py-3 px-4 border border-transparent rounded-lg shadow-sm text-sm font-bold text-white bg-primary hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary/50 transition-colors" type="submit">
+                                    Send Message
+                                </button>
+</div>
+</form>
+</div>
+<div class="space-y-12">
+<div>
+<h3 class="text-xl font-bold mb-4">Contact Information</h3>
+<div class="space-y-4 text-sm">
+<div class="flex items-start">
+<p class="w-24 font-medium text-[#6b7280] dark:text-[#9ca3af]">Address</p>
+<p>123 Export Avenue, Industrial Zone, City, Country</p>
+</div>
+<div class="flex items-start">
+<p class="w-24 font-medium text-[#6b7280] dark:text-[#9ca3af]">Phone</p>
+<p>+1 (555) 123-4567</p>
+</div>
+<div class="flex items-start">
+<p class="w-24 font-medium text-[#6b7280] dark:text-[#9ca3af]">Email</p>
+<a class="hover:text-primary transition-colors" href="mailto:info@shippsy.com">info@shippsy.com</a>
+</div>
+</div>
+</div>
+<div>
+<h3 class="text-xl font-bold mb-4">Our Location</h3>
+<div class="aspect-w-16 aspect-h-9 rounded-xl overflow-hidden">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBP8X9RD2B7d29uzgDe4MrMMEBw4VwYXN2PcnURohrCDmTu7GL90qsYyBRkZaSr2v3TCbqH8kYiVp9icABSn_QC1VD5berNqiMRXXDUJpaJeAUZygfaqhUpOE19_Qs7QdFiwp8ewr5w60BZKHr-kZ0cHena16Kcm6pAxaI7NoBHW1dyqitn5GAyOyIteer2QmEh1ZSSvvz2FJo1vZRZiWPv6iEWx-jsEScyez9xtz2tDJw-0vGa6zPWlzUleTEpRDYgMeTdK9V9zazg');"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="bg-background-light/50 dark:bg-background-dark/50 border-t border-[#e5e7eb] dark:border-background-dark">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+<div class="flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-sm text-[#6b7280] dark:text-[#9ca3af]">© 2024 Shippsy. All rights reserved.</p>
+<div class="flex items-center gap-6">
+<a class="text-sm text-[#6b7280] dark:text-[#9ca3af] hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="text-sm text-[#6b7280] dark:text-[#9ca3af] hover:text-primary transition-colors" href="#">Terms of Service</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+
+</body></html>

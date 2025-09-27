@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<title>SportGear Co. Manufacturing Excellence</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#1173d4",
+              "background-light": "#f6f7f8",
+              "background-dark": "#101922",
+            },
+            fontFamily: {
+              display: ["Inter"],
+            },
+            borderRadius: {
+              DEFAULT: "0.25rem",
+              lg: "0.5rem",
+              xl: "0.75rem",
+              full: "9999px",
+            },
+          },
+        },
+      };
+    </script>
+<style>
+      .timeline-item:not(:last-child)::before {
+        content: "";
+        position: absolute;
+        left: 1.25rem;
+        top: 2.5rem;
+        bottom: -2.5rem;
+        width: 2px;
+        background-color: #e5e7eb;
+        transform: translateX(-50%);
+      }
+      .dark .timeline-item:not(:last-child)::before {
+        background-color: #374151;
+      }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="flex min-h-screen flex-col">
+<header class="sticky top-0 z-20 w-full border-b border-background-light/80 bg-background-light/80 dark:border-background-dark/80 dark:bg-background-dark/80 backdrop-blur-sm">
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<div class="flex h-16 items-center justify-between">
+<div class="flex items-center gap-4">
+<svg class="h-8 w-8 text-primary" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z" fill="currentColor"></path>
+</svg>
+<h1 class="text-xl font-bold text-gray-900 dark:text-white">
+                SportGear Co.
+              </h1>
+</div>
+<nav class="hidden items-center gap-8 md:flex">
+<a class="text-sm font-medium text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary" href="#">Products</a>
+<a class="text-sm font-medium text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary" href="#">Design</a>
+<a class="text-sm font-medium text-primary dark:text-primary" href="#">Manufacturing</a>
+<a class="text-sm font-medium text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary" href="#">Sustainability</a>
+<a class="text-sm font-medium text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary" href="#">About Us</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-primary/90">
+                Contact Us
+              </button>
+</div>
+</div>
+</div>
+</header>
+<main class="flex-grow">
+<section class="py-20 md:py-28">
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<div class="max-w-3xl mx-auto text-center">
+<h2 class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
+                Manufacturing Excellence
+              </h2>
+<p class="mt-4 text-lg text-gray-600 dark:text-gray-300">
+                At SportGear Co., our manufacturing process is a blend of
+                precision engineering, advanced technology, and stringent
+                quality control. We are committed to delivering superior
+                products that meet the highest standards of performance and
+                durability.
+              </p>
+</div>
+</div>
+</section>
+<section class="pb-20 md:pb-28">
+<div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+<div class="relative">
+<div class="space-y-16">
+<div class="timeline-item relative grid md:grid-cols-2 md:gap-12">
+<div class="flex items-center">
+<div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-full border-2 border-primary bg-background-light dark:bg-background-dark">
+<span class="font-bold text-primary">1</span>
+</div>
+</div>
+<div>
+<h3 class="text-2xl font-bold text-gray-900 dark:text-white">
+                      Design &amp; Prototyping
+                    </h3>
+<p class="mt-2 text-gray-600 dark:text-gray-300">
+                      Our journey begins with innovative design and meticulous
+                      prototyping. We use advanced CAD software and 3D printing
+                      to create prototypes that are both functional and
+                      aesthetically pleasing. This stage involves rigorous
+                      testing and refinement to ensure the final product meets
+                      our exacting standards.
+                    </p>
+<div class="mt-6 overflow-hidden rounded-xl">
+<img alt="Design and Prototyping" class="w-full h-auto object-cover aspect-[3/2]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGOrCxEMCC-Q99sufsewJa3ilOTyJE9a_7E1IUXEXLTfnRygeWjOg07TCNYNQPU0JXPQ8tGt9FQNmcm0-xM8p2HPstpnCL-fBtV3ROaf-X4EIu7DksADgWsMSZSDuOqaoDy-YBXTyPImFes22YanKBl9SNvEYs_OY25uROah27Y8CwSAaM-mKQNmrH7voMkA_EoeaZ73-dTRTZB8G8yyUb-vNzF3AHtS9SIKowUr_IIHg1eqKy-_qNMHRYGK0OpvfDjYb4IU65-7us"/>
+</div>
+</div>
+</div>
+<div class="timeline-item relative grid md:grid-cols-2 md:gap-12">
+<div class="flex items-center md:col-start-2">
+<div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-full border-2 border-primary bg-background-light dark:bg-background-dark">
+<span class="font-bold text-primary">2</span>
+</div>
+</div>
+<div class="md:col-start-1 md:row-start-1">
+<h3 class="text-2xl font-bold text-gray-900 dark:text-white">
+                      Precision Engineering
+                    </h3>
+<p class="mt-2 text-gray-600 dark:text-gray-300">
+                      Our manufacturing facilities are equipped with
+                      state-of-the-art machinery that ensures precision at every
+                      stage. From cutting and sewing to finishing and
+                      packaging, each step is executed with meticulous attention
+                      to detail.
+                    </p>
+<div class="mt-6 overflow-hidden rounded-xl">
+<img alt="Precision Engineering" class="w-full h-auto object-cover aspect-[3/2]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbpjPZDU9JgEJa-g0glTUFi0bngy0ORdxUGbNXSdebCM3R28-3-leIMJE5YThkNFKdJ3LqZwwhW2Eps0h0SBcYA_Q9lJrfZcv71e-o6cPa_pak-SdS6FPHDhhd97Tg_Fg_4jnCosTQiAnKwVpqlK5CS7Qg2QqoeFAsaUBNIfDzpNyRMgzWBivWzQISzGpO9NxU9bbHGkNdPH5OiPEe7IGzDBtTVSfkiYtVCAW6gpReCeP5WapH-EsY0fAjsF_1ui1zF3NWhRg9VVcD"/>
+</div>
+</div>
+</div>
+<div class="timeline-item relative grid md:grid-cols-2 md:gap-12">
+<div class="flex items-center">
+<div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-full border-2 border-primary bg-background-light dark:bg-background-dark">
+<span class="font-bold text-primary">3</span>
+</div>
+</div>
+<div>
+<h3 class="text-2xl font-bold text-gray-900 dark:text-white">
+                      Quality Control
+                    </h3>
+<p class="mt-2 text-gray-600 dark:text-gray-300">
+                      Quality is at the heart of everything we do. Our stringent
+                      quality control measures ensure that every product meets
+                      our high standards. Our commitment to quality is reflected
+                      in our ISO 9001 certification and our 20% reduction in
+                      material waste.
+                    </p>
+<div class="mt-6 overflow-hidden rounded-xl">
+<img alt="Quality Control" class="w-full h-auto object-cover aspect-[3/2]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCw7o_9tfM_4UD8oa_nSZ9ksH8qvGaFlZJk1S1AICByz3_LlfzBbm0lgzZxEg6bZHHvLiYaTTPpUVsGtDXM4Q2AguiAPhVy0fHkp0draI-yueH3iX0djSRCchFiHOyir4OucVQKszyqXpq0oJBR7IhL3xZy5CnpEJW0i6ojkt0vA3csbczMgTSedVx54Uzlt6aUmK6TOG4kQwJD5wMWisAs49bs9iQHstO9OsLsV8uo18itchTKlxGoSIsC_7LzfEooQTMfLL6JWW-i"/>
+</div>
+</div>
+</div>
+<div class="timeline-item relative grid md:grid-cols-2 md:gap-12">
+<div class="flex items-center md:col-start-2">
+<div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-full border-2 border-primary bg-background-light dark:bg-background-dark">
+<span class="font-bold text-primary">4</span>
+</div>
+</div>
+<div class="md:col-start-1 md:row-start-1">
+<h3 class="text-2xl font-bold text-gray-900 dark:text-white">
+                      Delivery &amp; Logistics
+                    </h3>
+<p class="mt-2 text-gray-600 dark:text-gray-300">
+                      Our efficient logistics network ensures timely delivery of
+                      products to our customers worldwide. We work with trusted
+                      partners to provide reliable and cost-effective shipping
+                      solutions.
+                    </p>
+<div class="mt-6 overflow-hidden rounded-xl">
+<img alt="Delivery and Logistics" class="w-full h-auto object-cover aspect-[3/2]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5qMDRnhjPEetC2jGKC4k-AksfgAZz8RN0585FBQRWOJdWvS6ZPznEFhysn6aRkYkLzdeAxNXPrIKInvYYUsMkKU-4gaKlFjaev7R54iIYUSU7WlcE1DJJzv6xJB8kpBoDVANfRrrKe3jgFiKx8G10ZOFnE0dYiEmp8CcOxR73HoZocDd-bCtsj5K84TckD8_Rl_grDDL71q3vIBcXmcIWtftDqqPMxIOf6EjquoGOOqn7Sslrm-Wo5tA-IqqzCbv6qsX4yuynzSmS"/>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="border-t border-gray-200 dark:border-gray-800">
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col items-center justify-between gap-4 py-8 md:flex-row">
+<div class="flex gap-6">
+<a class="text-sm text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary" href="#">Privacy Policy</a>
+<a class="text-sm text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary" href="#">Terms of Service</a>
+</div>
+<p class="text-sm text-gray-600 dark:text-gray-300">
+              © 2024 SportGear Co. All rights reserved.
+            </p>
+</div>
+</div>
+</footer>
+</div>
+
+</body></html>

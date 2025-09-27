@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter:wght@400;500;700;900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<title>Shippsy</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: '#1173d4',
+              'background-light': '#f6f7f8',
+              'background-dark': '#101922',
+            },
+            fontFamily: {
+              display: ['Inter'],
+            },
+            borderRadius: { DEFAULT: '0.25rem', lg: '0.5rem', xl: '0.75rem', full: '9999px' },
+          },
+        },
+      };
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+<div class="flex flex-col min-h-screen">
+<header class="sticky top-0 z-10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm border-b border-gray-200 dark:border-gray-800">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M39.475 21.6262C40.358 21.4363 40.6863 21.5589 40.7581 21.5934C40.7876 21.655 40.8547 21.857 40.8082 22.3336C40.7408 23.0255 40.4502 24.0046 39.8572 25.2301C38.6799 27.6631 36.5085 30.6631 33.5858 33.5858C30.6631 36.5085 27.6632 38.6799 25.2301 39.8572C24.0046 40.4502 23.0255 40.7407 22.3336 40.8082C21.8571 40.8547 21.6551 40.7875 21.5934 40.7581C21.5589 40.6863 21.4363 40.358 21.6262 39.475C21.8562 38.4054 22.4689 36.9657 23.5038 35.2817C24.7575 33.2417 26.5497 30.9744 28.7621 28.762C30.9744 26.5497 33.2417 24.7574 35.2817 23.5037C36.9657 22.4689 38.4054 21.8562 39.475 21.6262ZM4.41189 29.2403L18.7597 43.5881C19.8813 44.7097 21.4027 44.9179 22.7217 44.7893C24.0585 44.659 25.5148 44.1631 26.9723 43.4579C29.9052 42.0387 33.2618 39.5667 36.4142 36.4142C39.5667 33.2618 42.0387 29.9052 43.4579 26.9723C44.1631 25.5148 44.659 24.0585 44.7893 22.7217C44.9179 21.4027 44.7097 19.8813 43.5881 18.7597L29.2403 4.41187C27.8527 3.02428 25.8765 3.02573 24.2861 3.36776C22.6081 3.72863 20.7334 4.58419 18.8396 5.74801C16.4978 7.18716 13.9881 9.18353 11.5858 11.5858C9.18354 13.988 7.18717 16.4978 5.74802 18.8396C4.58421 20.7334 3.72865 22.6081 3.36778 24.2861C3.02574 25.8765 3.02429 27.8527 4.41189 29.2403Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h1 class="text-xl font-bold text-gray-900 dark:text-white">Shippsy</h1>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors" href="#">About</a>
+<a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors" href="#">Products</a>
+<a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors" href="#">Services</a>
+<a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors" href="#">Contact</a>
+</nav>
+<div class="flex items-center">
+<button class="bg-primary text-white font-bold text-sm px-4 py-2 rounded-lg hover:bg-primary/90 transition-colors">Get a Quote</button>
+</div>
+</div>
+</div>
+</header>
+<main class="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+<div class="max-w-4xl mx-auto">
+<div class="text-center mb-12">
+<h2 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white tracking-tight">Our Products &amp; Services</h2>
+<p class="mt-4 text-lg text-gray-600 dark:text-gray-400">Combining cutting-edge technology with meticulous craftsmanship to deliver superior sport apparel solutions.</p>
+</div>
+<section>
+<h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-8">Apparel Categories</h3>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="group flex flex-col gap-4">
+<div class="overflow-hidden rounded-lg">
+<div class="w-full aspect-square bg-cover bg-center group-hover:scale-105 transition-transform duration-300" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDiWU-KIAIdzvkj7l-asp1xnAEwYOAqsuqkKaDN1kHsFJDwMKvWrBRT72y5fF5OcMs23tjzXzBsyXtZTgyekycNrKB6BU2p2xeRs-gv4XTIE5RaP3nCST4RAPlKxCrdSrpCp2EoZX4Gg9elmhuCNxh_ii9-7-3Gu23O0OIk23Yk1Ntj-WqnFajr9PYkrKqAI4KQrW2souNLim0KBIQbT1uJK54HeFDqrBqwELHZ4veYu0IVxTx5yApIpLUe7TeXCu0XFOwP4Xv17LuZ");'></div>
+</div>
+<div>
+<h4 class="text-base font-bold text-gray-900 dark:text-white">Performance Running Gear</h4>
+<p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Utilizing 12+ advanced fabrics for optimal moisture-wicking and comfort.</p>
+</div>
+</div>
+<div class="group flex flex-col gap-4">
+<div class="overflow-hidden rounded-lg">
+<div class="w-full aspect-square bg-cover bg-center group-hover:scale-105 transition-transform duration-300" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBilM_HnjzUFu4oaFBEIQY93_F4XMWdyePVBaUFm8PLiFRU2D6p19vquG9GtNRaioDjyxpKcbWx448AmKsgDIo7TogMSOFZEAfEQYHxMCTcVX0bjorUqlxRzjTSvk9B1-IF_3GePX6Ijz0BqthCCERJhNq9F6GvhW7xWfwQNfRLLy8L4CNMGsTsumAsmtkOJoOgVtumh_M59q4FQebfAGbjlMxay5HZRQdFbQRr2QwP0eupk5yOCMyz9EOE4-7MQjJgzvnS-jkBGti2");'></div>
+</div>
+<div>
+<h4 class="text-base font-bold text-gray-900 dark:text-white">Team Sports Uniforms</h4>
+<p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Over 500 team color combinations available for complete customization.</p>
+</div>
+</div>
+<div class="group flex flex-col gap-4">
+<div class="overflow-hidden rounded-lg">
+<div class="w-full aspect-square bg-cover bg-center group-hover:scale-105 transition-transform duration-300" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBvddtJet54YVBLEwgPp5RhfGofAFe4K9469GqQaHlI8xn-rjtcWc3A8oetYwygbCVFGUytq6XRBraukL1GshtoXBFgLV9HaJ5dJ98nIyCXfENYr1LPGS-Lqhhb51apdZRYbxCSp5uh7P8rOBkT3XY6zq6tJbyt5e-vlXSU3LSYSc5a-OFYb6MXNjc79VpGDJ-mD6HlXGIf5wG8HoX-QFK7myZKMdjL6lDjCz0_4kor_PqpM6Y2sM_QUL8HnsecqD-yzwhk8xGPZ51Z");'></div>
+</div>
+<div>
+<h4 class="text-base font-bold text-gray-900 dark:text-white">Outdoor Adventure Wear</h4>
+<p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Tested in 5 extreme climates for proven durability and protection.</p>
+</div>
+</div>
+<div class="group flex flex-col gap-4">
+<div class="overflow-hidden rounded-lg">
+<div class="w-full aspect-square bg-cover bg-center group-hover:scale-105 transition-transform duration-300" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA0CtR25fP7WYVOs1y9DBiJ_z0b0gVXH1puOeVPlaBpPQ6GESqkytWcsI9B2J7JyPJZ63G3YKZPwN98oXV7lr8Qie7BeNEHVB06FKuR3HSQOQoH-CR5fLFCQG-CuTBeMjWRW5PHv0D4f7CQn-UiZOuzMaRnrkjoqozwQdaAnDUv226HMI5ILgeXHEQ9dsoW0pyu3sNHwrZ80LKIAxJbJ3C0W21EZiceK6vbH2lPVDY27a84fBMeumAHPs2P-w5WlrQ_arzD7foBGqcU");'></div>
+</div>
+<div>
+<h4 class="text-base font-bold text-gray-900 dark:text-white">Fitness &amp; Training Apparel</h4>
+<p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Engineered with a 4-way stretch fabric for maximum flexibility.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="mt-16">
+<h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-8">Core Services</h3>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+<div class="bg-background-light dark:bg-background-dark border border-gray-200 dark:border-gray-800 p-8 rounded-xl flex flex-col items-center">
+<div class="bg-primary/10 dark:bg-primary/20 p-3 rounded-full mb-4">
+<span class="material-symbols-outlined text-primary" style="font-size: 32px">
+                    precision_manufacturing
+                  </span>
+</div>
+<h4 class="text-lg font-bold text-gray-900 dark:text-white">Custom Manufacturing</h4>
+<p class="text-sm text-gray-600 dark:text-gray-400 mt-2">30% faster prototyping than industry average, getting your product to market quicker.</p>
+</div>
+<div class="bg-background-light dark:bg-background-dark border border-gray-200 dark:border-gray-800 p-8 rounded-xl flex flex-col items-center">
+<div class="bg-primary/10 dark:bg-primary/20 p-3 rounded-full mb-4">
+<span class="material-symbols-outlined text-primary" style="font-size: 32px">
+                    manage_search
+                  </span>
+</div>
+<h4 class="text-lg font-bold text-gray-900 dark:text-white">Material Sourcing</h4>
+<p class="text-sm text-gray-600 dark:text-gray-400 mt-2">Global network of 200+ certified fabric suppliers ensuring premium quality.</p>
+</div>
+<div class="bg-background-light dark:bg-background-dark border border-gray-200 dark:border-gray-800 p-8 rounded-xl flex flex-col items-center">
+<div class="bg-primary/10 dark:bg-primary/20 p-3 rounded-full mb-4">
+<span class="material-symbols-outlined text-primary" style="font-size: 32px">
+                    design_services
+                  </span>
+</div>
+<h4 class="text-lg font-bold text-gray-900 dark:text-white">Design Consultation</h4>
+<p class="text-sm text-gray-600 dark:text-gray-400 mt-2">Our design team holds a 98% client satisfaction rate for concept realization.</p>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer class="bg-background-light dark:bg-background-dark border-t border-gray-200 dark:border-gray-800">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+<div class="flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-4">
+<p class="text-sm text-gray-500 dark:text-gray-400">© 2024 Shippsy. All rights reserved.</p>
+<div class="flex gap-6">
+<a class="text-sm text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="text-sm text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">Terms of Service</a>
+<a class="text-sm text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">Contact Us</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+
+</body></html>
